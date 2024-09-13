@@ -1,1 +1,44 @@
- 
+ body{
+    overflow-x: hidden !important;
+ }
+ .nav_space{ 
+    color: #252b60;
+    font-weight: 500;
+    padding: 37px 20px;
+    font-family: "Barlow", sans-serif;
+    display: block;
+    font-size: 18px;
+    position: relative;
+    margin-left: 20px;
+ }
+
+ .nav_space:hover{ 
+    color: #fb246a;
+    
+ }
+
+ .btn-transition{
+    height: 55px;
+    width: 120px;
+    background: #fb246a;
+    margin-top: -14px;
+    color: white;
+
+ }
+ .banner_img{
+    background: url("h1_hero.jpg");
+    min-height: 650px;
+    background-size: 100% 100%;
+    object-fit: cover;
+    /* margin-left: auto;
+    margin-right: auto; */
+ }
+
+ .banner_text{
+    color: #252b60;
+    font-size: 72px;
+    padding: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+
+ }
